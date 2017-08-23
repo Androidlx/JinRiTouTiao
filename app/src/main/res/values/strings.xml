@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LianXi</string>
+    <string name="night">夜间模式</string>
+    <string name="day">日间模式</string>
+</resources>

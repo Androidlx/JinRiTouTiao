@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="wenziyanse" format="color"/>
+    <attr name="wenzineirong" format="string"></attr>
+    <attr name="tupian" format="dimension"></attr>
+    <attr name="weixin" format="dimension"></attr>
+    <attr name="qq" format="dimension"></attr>
+    <attr name="shouji" format="dimension"></attr>
+    <attr name="xiazai" format="dimension"></attr>
+    <attr name="shezhi" format="dimension"></attr>
+    <attr name="daohang" format="color"></attr>
+    <attr name="touxaing" format="dimension"></attr>
+    <attr name="shuaxin" format="dimension"></attr>
+    <attr name="sousuo" format="dimension"></attr>
+    <attr name="biaoti" format="color"></attr>
+    <attr name="haoyou" format="dimension"></attr>
+    <attr name="huati" format="dimension"></attr>
+    <attr name="shoucang" format="dimension"></attr>
+    <attr name="huodong" format="dimension"></attr>
+    <attr name="shangcheng" format="dimension"></attr>
+    <attr name="weibo" format="dimension"></attr>
+    <attr name="tengxunweibo" format="dimension"></attr>
+
+
+</resources>

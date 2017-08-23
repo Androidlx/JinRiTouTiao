@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="day_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="wenziyanse">@color/black</item>
+        <item name="wenzineirong">@string/night</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="tupian">@drawable/yejian</item>
+        <item name="weixin">@drawable/weixinri</item>
+        <item name="qq">@drawable/qqri</item>
+        <item name="shouji">@drawable/shoujiri</item>
+        <item name="shezhi">@drawable/shezhiri</item>
+        <item name="xiazai">@drawable/xiazairi</item>
+        <item name="daohang">@color/black</item>
+        <item name="touxaing">@drawable/touxaingri</item>
+        <item name="sousuo">@drawable/sousuori</item>
+        <item name="shuaxin">@drawable/shuari</item>
+        <item name="biaoti">@color/white</item>
+        <item name="haoyou">@drawable/haoyouri</item>
+        <item name="huati">@drawable/huatiri</item>
+        <item name="shoucang">@drawable/shoucangri</item>
+        <item name="huodong">@drawable/huodong</item>
+        <item name="shangcheng">@drawable/shangchengri</item>
+        <item name="tengxunweibo">@drawable/tengxunweibori</item>
+        <item name="weibo">@drawable/xinlangweibori</item>
+
+
+    </style>
+    <style name="night_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="wenziyanse">@color/white</item>
+        <item name="wenzineirong">@string/day</item>
+        <item name="android:windowBackground">@color/green</item>
+        <item name="tupian">@drawable/rijian</item>
+        <item name="weixin">@drawable/weixinye</item>
+        <item name="qq">@drawable/qqye</item>
+        <item name="shouji">@drawable/shoujiye</item>
+        <item name="shezhi">@drawable/shezhiye</item>
+        <item name="xiazai">@drawable/xiazaiye</item>
+        <item name="daohang">@color/pink</item>
+        <item name="touxaing">@drawable/touxaingye</item>
+        <item name="sousuo">@drawable/sousuoye</item>
+        <item name="shuaxin">@drawable/shuaye</item>
+        <item name="biaoti">@color/black</item>
+        <item name="haoyou">@drawable/haoyouye</item>
+        <item name="huati">@drawable/huatiye</item>
+        <item name="shoucang">@drawable/shoucangye</item>
+        <item name="huodong">@drawable/huodongye</item>
+        <item name="shangcheng">@drawable/shangchengye</item>
+        <item name="tengxunweibo">@drawable/tengxunweiboye</item>
+        <item name="weibo">@drawable/xinlangweiboye</item>
+
+    </style>
+
+    <style name="title">
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="popWindowAnimation" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/right</item>
+        <item name="android:windowExitAnimation">@anim/left</item>
+    </style>
+
+</resources>

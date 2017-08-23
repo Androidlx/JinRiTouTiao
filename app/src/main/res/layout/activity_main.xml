@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwie.lianxi.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="55dp"
+       android:orientation="horizontal"
+       android:background="#CC3131">
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <ImageView
+               android:id="@+id/touxiang"
+               android:layout_width="45dp"
+               android:layout_height="45dp"
+               android:background="?attr/touxaing"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="6.5dp"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="5"
+           android:layout_height="wrap_content"
+           android:gravity="center">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="今日头条"
+               android:textColor="?attr/biaoti"
+               android:textSize="30sp"
+               />
+           <ImageView
+               android:id="@+id/tuozhuai"
+               android:layout_width="45dp"
+               android:layout_height="45dp"
+               android:src="?attr/shuaxin"/>
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center"
+           >
+           <ImageView
+               android:id="@+id/sousuo"
+               android:layout_width="45dp"
+               android:layout_height="45dp"
+               android:background="?attr/sousuo"
+               android:layout_marginTop="6dp"/>
+       </LinearLayout>
+
+
+   </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+<android.support.design.widget.TabLayout
+    android:id="@+id/tablayout"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    app:tabTextColor="?attr/daohang"
+    app:tabIndicatorHeight="1dp"
+    app:tabMode="scrollable"
+    app:tabTextAppearance="@style/title"
+    app:tabIndicatorColor="#000000"
+    app:tabSelectedTextColor="#cc0000">
+</android.support.design.widget.TabLayout>
+</LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+</LinearLayout>
